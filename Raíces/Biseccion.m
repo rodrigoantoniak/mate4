@@ -50,7 +50,7 @@ if((f(xl)==0) || (f(xu)==0))
         fprintf('%f\n', xu);
     end
 elseif(MEP<=tol)
-    fprintf('Raiz encontrada con una tolerancia de %f:\n\t%f\n', tol, xr);
+    fprintf('Raiz encontrada con una tolerancia maxima de %f:\n\t%f\n', tol, xr);
 elseif((f(xl)*f(xr)<0) && (f(xu)*f(xr)<0))
     fprintf('Mas de una raiz encontrada. Intente nuevamente con:\n');
     fprintf('>> %f y %f\n', xl, xr);

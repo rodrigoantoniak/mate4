@@ -27,4 +27,4 @@ do
     xn=double(aux);
 until(MEP<=tol);
 
-fprintf('Raiz encontrada con una tolerancia de %f:\n\t%f\n', tol, xn);
+fprintf('Raiz encontrada con una tolerancia maxima de %f:\n\t%f\n', tol, xn);
